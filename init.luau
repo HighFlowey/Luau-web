@@ -18,14 +18,3 @@ app:addListener({
 		}
 	end
 })
-
--- if req.method == "GET" then
--- 	local possible_file_path = "./public" .. req.path
--- 	local path_exists, path_is_file = pcall(fs.isFile, possible_file_path)
-	
--- 	if path_exists and path_is_file then
--- 		return {
--- 			body = fs.readFile(possible_file_path)
--- 		}
--- 	end
--- end
