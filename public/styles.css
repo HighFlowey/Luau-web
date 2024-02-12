@@ -1,0 +1,22 @@
+body {
+    /* Style */
+    background: linear-gradient(black, gray, 15deg);
+    height: 100vh;
+    margin: 0 15px;
+    overflow: hidden;
+
+    /* Centering everything */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-indicator {
+    text-align: center;
+    width: 15rem;
+}
+
+.number-input {
+    width: 15rem;
+}
